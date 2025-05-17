@@ -13,11 +13,289 @@
     </image>
     
     <item>
-      <title>Pandas</title>
+      <title>Bash-скрипты</title>
       <link>http://localhost:1313/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Цель данной работы &amp;mdash; изучить основы программирования в оболочке ОС UNIX. Научится писать более сложные командные файлы с использованием логических управляющих конструкций и циклов.&lt;/p&gt;
+&lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
+&lt;p&gt;В этой лабораторной работе необходимо изучить работу bash-скриптов.&lt;/p&gt;
+&lt;p&gt;Необходимо научиться:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Использовать логические управляющие конструкции&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Использовать циклы&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+&lt;p&gt;Создадим файлы ex1.sh-ex4.sh для выполнения работы (рис. [-@fig:001]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/1.png&#34; alt=&#34;файлы sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:001 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем скрипт для задания 1 (рис. [-@fig:002]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/2.png&#34; alt=&#34;ex1.sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:002 width=70%}&lt;/p&gt;
+&lt;p&gt;Выполним файл ex1.sh и проверим корректность выполнения (рис. [-@fig:003]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/3.png&#34; alt=&#34;bash ex1.sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:003 width=70%}&lt;/p&gt;
+&lt;p&gt;Создадим файли ex2.c для кода на С (рис. [-@fig:004]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/4.png&#34; alt=&#34;ex2.с&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:004 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем код на с (рис. [-@fig:005]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/5.png&#34; alt=&#34;ex2.с&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:005 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем скрипт для задания 2 (рис. [-@fig:006]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/6.png&#34; alt=&#34;ex2.sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:006 width=70%}&lt;/p&gt;
+&lt;p&gt;Выполним файл ex2.sh и проверим корректность выполнения (рис. [-@fig:007]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/7.png&#34; alt=&#34;bash ex2.sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:007 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем скрипт для задания 3 (рис. [-@fig:008]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/8.png&#34; alt=&#34;ex3.sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:008 width=70%}&lt;/p&gt;
+&lt;p&gt;Выполним файл ex3.sh и проверим корректность выполнения (рис. [-@fig:009]-[-@fig:010]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/9.png&#34; alt=&#34;bash ex3.sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:009 width=70%}&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/10.png&#34; alt=&#34;bash ex3.sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:010 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем скрипт для задания 4 (рис. [-@fig:011]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/11.png&#34; alt=&#34;ex4.sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:011 width=70%}&lt;/p&gt;
+&lt;p&gt;Выполним файл ex4.sh и проверим корректность выполнения (рис. [-@fig:012]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image/12.png&#34; alt=&#34;bash ex4.sh&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:012 width=70%}&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;В этой лабораторной работе мы изучили углкбленную работу bash-скриптов.&lt;/p&gt;
+</description>
     </item>
     
     <item>
