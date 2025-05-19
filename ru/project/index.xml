@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Мой блог</title>
+    <link>http://localhost:1313/ru/project/</link>
+      <atom:link href="http://localhost:1313/ru/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_645fa481986063ef.png</url>
+      <title>Projects</title>
+      <link>http://localhost:1313/ru/project/</link>
+    </image>
+    
+    <item>
+      <title>Bash-скрипты</title>
+      <link>http://localhost:1313/ru/project/bash/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ru/project/bash/</guid>
+      <description>&lt;p&gt;Цель данной работы &amp;mdash; изучить основы программирования в оболочке ОС UNIX. Научится писать более сложные командные файлы с использованием логических управляющих конструкций и циклов.&lt;/p&gt;
+&lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
+&lt;p&gt;В этой работе необходимо изучить работу bash-скриптов.&lt;/p&gt;
+&lt;p&gt;Необходимо научиться:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Использовать логические управляющие конструкции&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Использовать циклы&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;выполнение-работы&#34;&gt;Выполнение работы&lt;/h1&gt;
+&lt;p&gt;Создадим файлы ex1.sh-ex4.sh для выполнения работы (рис. [-@fig:001]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;файлы sh&#34; srcset=&#34;
+               /project/bash/image/1_hu_62c12213a67ee693.webp 400w,
+               /project/bash/image/1_hu_d8c65d119a803da0.webp 760w,
+               /project/bash/image/1_hu_aa52e410b2360bc.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/1_hu_62c12213a67ee693.webp&#34;
+               width=&#34;336&#34;
+               height=&#34;17&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:001 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем скрипт для задания 1 (рис. [-@fig:002]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ex1.sh&#34; srcset=&#34;
+               /project/bash/image/2_hu_68a068b5e3d5e5e8.webp 400w,
+               /project/bash/image/2_hu_1761ca30c775c8f2.webp 760w,
+               /project/bash/image/2_hu_f2fa9f3dfedffea5.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/2_hu_68a068b5e3d5e5e8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;235&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:002 width=70%}&lt;/p&gt;
+&lt;p&gt;Выполним файл ex1.sh и проверим корректность выполнения (рис. [-@fig:003]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bash ex1.sh&#34; srcset=&#34;
+               /project/bash/image/3_hu_2f4b021a560ae0f1.webp 400w,
+               /project/bash/image/3_hu_55fecb822972abc1.webp 760w,
+               /project/bash/image/3_hu_5bdaf187e431f80b.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/3_hu_2f4b021a560ae0f1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;235&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:003 width=70%}&lt;/p&gt;
+&lt;p&gt;Создадим файли ex2.c для кода на С (рис. [-@fig:004]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ex2.с&#34; srcset=&#34;
+               /project/bash/image/4_hu_933eec44dd1ae853.webp 400w,
+               /project/bash/image/4_hu_7ec203116c35280d.webp 760w,
+               /project/bash/image/4_hu_38a3e55877529014.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/4_hu_933eec44dd1ae853.webp&#34;
+               width=&#34;337&#34;
+               height=&#34;23&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:004 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем код на с (рис. [-@fig:005]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ex2.с&#34; srcset=&#34;
+               /project/bash/image/5_hu_c4efceb76e9da92c.webp 400w,
+               /project/bash/image/5_hu_ebe7f55ab8e3098d.webp 760w,
+               /project/bash/image/5_hu_a96cb174ee1f8061.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/5_hu_c4efceb76e9da92c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;242&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:005 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем скрипт для задания 2 (рис. [-@fig:006]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ex2.sh&#34; srcset=&#34;
+               /project/bash/image/6_hu_7aca8e94ab4232c3.webp 400w,
+               /project/bash/image/6_hu_abbcc36a4d874240.webp 760w,
+               /project/bash/image/6_hu_ca11a5c4c9fa5bd3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/6_hu_7aca8e94ab4232c3.webp&#34;
+               width=&#34;652&#34;
+               height=&#34;294&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:006 width=70%}&lt;/p&gt;
+&lt;p&gt;Выполним файл ex2.sh и проверим корректность выполнения (рис. [-@fig:007]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bash ex2.sh&#34; srcset=&#34;
+               /project/bash/image/7_hu_77a297be09e81903.webp 400w,
+               /project/bash/image/7_hu_95e7648885775eb3.webp 760w,
+               /project/bash/image/7_hu_a684f767b44a956b.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/7_hu_77a297be09e81903.webp&#34;
+               width=&#34;306&#34;
+               height=&#34;80&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:007 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем скрипт для задания 3 (рис. [-@fig:008]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ex3.sh&#34; srcset=&#34;
+               /project/bash/image/8_hu_acb4ff25da83c983.webp 400w,
+               /project/bash/image/8_hu_a0486abe988887f9.webp 760w,
+               /project/bash/image/8_hu_a13670b0353a280.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/8_hu_acb4ff25da83c983.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;254&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:008 width=70%}&lt;/p&gt;
+&lt;p&gt;Выполним файл ex3.sh и проверим корректность выполнения (рис. [-@fig:009]-[-@fig:010]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bash ex3.sh&#34; srcset=&#34;
+               /project/bash/image/9_hu_4562ea798176f27f.webp 400w,
+               /project/bash/image/9_hu_c4c3e256126a35e4.webp 760w,
+               /project/bash/image/9_hu_c15c4f357f7489d4.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/9_hu_4562ea798176f27f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;149&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:009 width=70%}&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bash ex3.sh&#34; srcset=&#34;
+               /project/bash/image/10_hu_9f0d895de11c48ef.webp 400w,
+               /project/bash/image/10_hu_cc083e013ac9223.webp 760w,
+               /project/bash/image/10_hu_4fee06dcf52165a6.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/10_hu_9f0d895de11c48ef.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;149&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:010 width=70%}&lt;/p&gt;
+&lt;p&gt;Напишем скрипт для задания 4 (рис. [-@fig:011]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;ex4.sh&#34; srcset=&#34;
+               /project/bash/image/11_hu_7f9efa6afa6a089b.webp 400w,
+               /project/bash/image/11_hu_1f284df0ea3b609e.webp 760w,
+               /project/bash/image/11_hu_fd93a77bd41d39f6.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/11_hu_7f9efa6afa6a089b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;295&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:011 width=70%}&lt;/p&gt;
+&lt;p&gt;Выполним файл ex4.sh и проверим корректность выполнения (рис. [-@fig:012]).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;bash ex4.sh&#34; srcset=&#34;
+               /project/bash/image/12_hu_8197cf1c3c0cc14c.webp 400w,
+               /project/bash/image/12_hu_55037ebfcf8dbad8.webp 760w,
+               /project/bash/image/12_hu_e822e5613167cb95.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/bash/image/12_hu_8197cf1c3c0cc14c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;295&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+{#fig:012 width=70%}&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;В этой работе мы изучили углубленную работу bash-скриптов.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

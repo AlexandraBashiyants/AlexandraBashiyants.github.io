@@ -234,12 +234,12 @@ Asciidoc также содержит их, но также предлагает 
     
     <item>
       <title>Bash-скрипты</title>
-      <link>http://localhost:1313/project/pandas/</link>
+      <link>http://localhost:1313/project/bash/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pandas/</guid>
+      <guid>http://localhost:1313/project/bash/</guid>
       <description>&lt;p&gt;Цель данной работы &amp;mdash; изучить основы программирования в оболочке ОС UNIX. Научится писать более сложные командные файлы с использованием логических управляющих конструкций и циклов.&lt;/p&gt;
 &lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
-&lt;p&gt;В этой лабораторной работе необходимо изучить работу bash-скриптов.&lt;/p&gt;
+&lt;p&gt;В этой работе необходимо изучить работу bash-скриптов.&lt;/p&gt;
 &lt;p&gt;Необходимо научиться:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -249,7 +249,7 @@ Asciidoc также содержит их, но также предлагает 
 &lt;p&gt;Использовать циклы&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+&lt;h1 id=&#34;выполнение-работы&#34;&gt;Выполнение работы&lt;/h1&gt;
 &lt;p&gt;Создадим файлы ex1.sh-ex4.sh для выполнения работы (рис. [-@fig:001]).&lt;/p&gt;
 &lt;p&gt;
 
@@ -514,24 +514,8 @@ Asciidoc также содержит их, но также предлагает 
   &lt;/div&gt;&lt;/figure&gt;
 {#fig:012 width=70%}&lt;/p&gt;
 &lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
-&lt;p&gt;В этой лабораторной работе мы изучили углкбленную работу bash-скриптов.&lt;/p&gt;
+&lt;p&gt;В этой работе мы изучили углубленную работу bash-скриптов.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>PyTorch</title>
-      <link>http://localhost:1313/project/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
-      <link>http://localhost:1313/project/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
   </channel>
